@@ -1,0 +1,110 @@
+html{
+    height: 100%;
+}
+
+    /* Navigation */
+
+body{
+    background-color: #F1C40F;
+    background-image:  url(https://tacomac.com/wp-content/uploads/2020/12/Taco-Mac_Header_12_30.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+    /* Container */
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+      /* Header */
+.container header{
+    background-color: white;
+    text-align: center;
+    height: 200px;
+    width: 100px;
+    margin-left: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+header .img-logo {
+    height: 200px;
+    border-style: solid;
+    background-attachment: scroll;
+}
+
+    /* Navigation */
+.container nav{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container nav .nav-item{
+    color: #0D3642;
+    font-size: 25px;
+    font-family: 'Quicksand';
+    padding-left: 35px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.container nav .nav-item:hover{
+    color: #CDDA5B;
+    font-size: 30px;
+    transition: 0.5s;
+    transition-duration: 1.2s;
+    transition: background 4s,
+}
+
+main{
+    text-align: justify;
+    padding-left: 75px;
+    margin-top: 75px;
+    margin-right: 75px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-title{
+    font-family: 'Secular One', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-title:hover{
+    text-shadow:5px 5px #d49218;
+    transition-duration: 1.2s;
+    transition: 0,3s;
+}
+
+
+.text-subtitle{
+    font-size: 30px;
+}
+
+.text-main{
+    text-shadow: 1px 1px white;
+    font-size: 25px;
+    font-family: 'Mulish', sans-serif;
+    margin-top: 100px;
+}
+
+.text-ending{
+    text-align: center;
+    text-shadow: none;
+    background-color: #eed707;
+    margin-top: 50px;
+}
+
+    /* Footer */
+footer{
+    text-align: center;
+    background-color: #CDDA5B;
+    font-weight: bold;
+    margin-top: 80px;
+}

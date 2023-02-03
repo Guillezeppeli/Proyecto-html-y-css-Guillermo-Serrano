@@ -1,0 +1,111 @@
+html{
+    height: 100%;
+}
+
+    /* Navigation */
+
+body{
+    background-color: #F1C40F;
+    background-image: url(./assets/Bebidas-imgBG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+    /* Container */
+
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 1024px;
+    }
+    
+          /* Header */
+    .container header{
+        background-color: white;
+        text-align: center;
+        height: 200px;
+        width: 100px;
+        margin-left: 400px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    header .img-logo {
+        height: 200px;
+        border-style: solid;
+        background-attachment: scroll;
+    }
+
+        /* Navigation */
+.container nav{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container nav .nav-item{
+    color: #FFFFFF;
+    text-shadow: 2px 2px black;
+    font-size: 26px;
+    font-family: 'Sora', sans-serif;
+    padding-left: 35px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.container nav .nav-item:hover{
+    color: #D35400;
+    font-size: 30px;
+    transition: 0.5s;
+    transition-duration: 1.2s;
+    transition: background 4s,
+}
+
+.cervezas{
+    float: left;
+    height: 425px;
+    width: 400px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 35px;
+    text-align: justify;
+    font-family: 'Mulish', sans-serif;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+    background-image: url(https://images.pexels.com/photos/1672304/pexels-photo-1672304.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+
+.tragos-y-copas{
+    float: right;
+    height: 425px;
+    width: 400px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 35px;
+    text-align: justify;
+    font-family: 'Mulish', sans-serif;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+    background-image: url(./assets/bartenderingBG.png);
+    background-size: cover;
+}
+
+h3{
+    text-align: center;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #CDDA5B;
+    font-weight: bold;
+    margin-top: 575px;
+}
